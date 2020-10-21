@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+.box{
+    height: 150px; 
+    transition:all 2s;
+    border:6px solid black;
+    left:0;
+    right: 0;
+    margin: 0 auto;
+    position:absolute;
+}
+.one{
+    width: 300px;
+    background-color: red;
+    z-index:6;
+}
+.one:hover{
+    background-color:blue;
+}
+.two{
+    width: 500px;
+    background-color:yellow;
+    top:100px; 
+    z-index:5;
+}
+.two:hover{
+    background-color:gray;
+}
+.three{
+    width: 700px;
+    background-color:green;
+    top:200px;
+    z-index:4;
+}
+.three:hover{
+    background-color:red;
+}
+.four{
+    width: 900px;
+    background-color:blue;
+    top:300px;
+    z-index:3;
+}
+.four:hover{
+    background-color:rgb(101, 230, 42);
+}
+.five{
+    width: 1100px;
+    background-color:pink;
+    top:400px; 
+    z-index:2; 
+}
+.five:hover{
+    background-color:rgb(224, 103, 47);
+}
+.six{
+    width: 1300px;
+    background-color:gray;
+    top:500px;
+    z-index:1;
+}
+.six:hover{
+    background-color:rgb(255, 0, 128);
+}
